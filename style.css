@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 118px;
+  margin-right: 118px;
+}
+
+nav img {
+  cursor: pointer;
+  height: 29px;
+  width: 44px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav ul li button {
+  color: #000000;
+  background-color: #f29494;
+  padding: 11px 16px;
+  border: 1px solid #f29494;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+}
+
+/* Subtract */
+
+.Subtract {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.Subtract2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.Subtract img,
+.Subtract2 img {
+  height: 1000px;
+}
+
+.product {
+  margin-left: 118px !important;
+  margin-right: 118px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h2 {
+  font-size: 120px;
+  font-family: "Advent Pro", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title h5 {
+  margin-top: -70px;
+  font-size: 50px;
+  color: #bd1818;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title p {
+  margin-top: -50px;
+  font-size: 30px;
+  color: #c9c6c6;
+}
+
+.product-img img {
+  width: 100%;
+  height: 507px;
+  max-width: 566px;
+}
+.product-card {
+  gap: 20px;
+  margin-top: 180px;
+  margin-left: 118px;
+  margin-right: 15%;
+  display: flex;
+  align-items: center;
+}
+.card1,
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  border-radius: 20px;
+  background-color: #2b3544;
+  width: 100%;
+  max-width: 665.09px;
+  height: 222px;
+}
+
+.product-card img {
+  margin-top: -80px;
+  width: 320px;
+  height: 260px;
+}
+
+.card1 h3,
+.card2 h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Abyssinica SIL", serif;
+  font-weight: 400;
+}
+.card1 p,
+.card2 p {
+  margin-top: -7px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Actor", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Extra small devices (phones, up to 576px): */
+@media (max-width: 576px) {
+  .product {
+    margin-left: 118px !important;
+    margin-right: 118px !important;
+    display: inline;
+    justify-content: center;
+  }
+
+  .title h2 {
+    font-size: 42px;
+    font-family: "Advent Pro", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title h5 {
+    margin-top: -70px;
+    font-size: 22px;
+    color: #bd1818;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title p {
+    margin-top: -50px;
+    font-size: 16px;
+    color: #c9c6c6;
+  }
+
+  .product-card {
+    gap: 20px;
+    margin-top: 180px;
+    margin-left: 118px;
+    margin-right: 15%;
+    display: inline;
+    align-items: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up): */
+@media (min-width: 576px) {
+  .product {
+    margin-left: 118px !important;
+    margin-right: 118px !important;
+    display: inline;
+    justify-content: center;
+  }
+
+  .title h2 {
+    font-size: 84px;
+    font-family: "Advent Pro", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title h5 {
+    margin-top: -70px;
+    font-size: 28px;
+    color: #bd1818;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title p {
+    margin-top: -50px;
+    font-size: 18px;
+    color: #c9c6c6;
+  }
+
+  .product-card {
+    gap: 20px;
+    margin-top: 180px;
+    margin-left: 118px;
+    margin-right: 15%;
+    display: inline;
+    align-items: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up): */
+@media (min-width: 768px) {
+  .product {
+    margin-left: 118px !important;
+    margin-right: 118px !important;
+    display: inline;
+    justify-content: center;
+  }
+
+  .title h2 {
+    font-size: 96px;
+    font-family: "Advent Pro", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title h5 {
+    margin-top: -70px;
+    font-size: 42px;
+    color: #bd1818;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title p {
+    margin-top: -50px;
+    font-size: 22px;
+    color: #c9c6c6;
+  }
+
+  .product-card {
+    gap: 20px;
+    margin-top: 180px;
+    margin-left: 118px;
+    margin-right: 15%;
+    display: inline;
+    align-items: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up): */
+@media (min-width: 992px) {
+  .product {
+    margin-left: 118px !important;
+    margin-right: 118px !important;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title h2 {
+    font-size: 100px;
+    font-family: "Advent Pro", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title h5 {
+    margin-top: -70px;
+    font-size: 45px;
+    color: #bd1818;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title p {
+    margin-top: -50px;
+    font-size: 28px;
+    color: #c9c6c6;
+  }
+
+  .product-card {
+    gap: 20px;
+    margin-top: 180px;
+    margin-left: 118px;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up): */
+@media (min-width: 1200px) {
+}
